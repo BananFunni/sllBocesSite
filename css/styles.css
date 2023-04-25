@@ -1,0 +1,142 @@
+/* css reset */
+*,*:after {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+/* colors */
+/* #00568c - Blue */
+/* #008e66 - Green */
+/* #ffffff - White */
+/* #cccccc - Grey */ 
+/* #00568c99 - Blue Fade */
+/* #008e6699 - Green Fade */
+
+/* fonts */
+
+body{
+	background-color: #ffffff;
+}
+
+header{
+	background-color: #00568c;
+}
+
+nav{
+	background-color: #008e66;
+	text-align: center;
+	padding: 500px;
+}
+
+nav ul li{
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 2.5em;
+}
+
+nav ul li a:hover{
+	font-size: 1.25em;
+	color: #ffffff;
+}
+
+nav ul li a:active{
+	color: #cccccc;
+}
+
+nav ul li a:visited{
+	color: #00568c;
+}
+
+h1{
+	text-align: center;
+	color: #cccccc;
+}
+
+h2{
+	text-align: center;
+	color: #ffffff;
+}
+
+main{
+	background-color: #ccccccc;
+}
+
+main a{
+	text-align: center;
+	font-size: 2.5em;
+	display: block;
+}
+
+main li{
+	text-align: center;
+	color: #00568c;
+	font-size: 1.5em;
+}
+
+p{
+	text-align: center;
+	color: #00568c;
+	font-size: 1.5em;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+img{
+	margin-left: 25%;
+	width: 50%;
+	height: 50%;
+}
+
+footer{
+	background-color: #00568c;
+}
+
+table{
+	margin: 0 auto;
+	font-size: 2em;
+	background-color: #cccccc;
+	padding: 150px;
+}
+
+.box{
+	font-size: 1.5em;
+	border: thick groove #00568c;
+}
+
+.button{
+	font-size:1.5em;
+}
+
+.fNav{
+	background-color: #008e66;
+	text-align: center;
+	padding: 250px;
+}
+
+.fNav ul li{
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 1.5em;
+}
+
+.fNav ul li a:hover{
+	font-size: 1.25em;
+	color: #ffffff;
+}
+
+.fNav ul li a:active{
+	color: #cccccc;
+}
+
+.fNav ul li a:visited{
+	color: #00568c;
+}
+
+blockquote{
+	color: #008e66;
+	background-color: #ffffff;
+	text-align: center;
+}
